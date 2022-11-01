@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPodIOS'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'Testing for pod TestPodIOS.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://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@github.com/deepakrnan/TestPodIOS.git'
+  s.homepage         = 'https://github.com/deepakrnan/TestPodIOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Deepak Ravi' => 'deepakapce@gmail.com' }
-  s.source           = { :git => 'https://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@github.com/deepakrnan/TestPodIOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/deepakrnan/TestPodIOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
