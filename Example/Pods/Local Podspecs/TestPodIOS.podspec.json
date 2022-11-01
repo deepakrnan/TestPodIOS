@@ -1,0 +1,22 @@
+{
+  "name": "TestPodIOS",
+  "version": "0.1.0",
+  "summary": "A short description of TestPodIOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Deepak Ravi/TestPodIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Deepak Ravi": "deepakapce@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Deepak Ravi/TestPodIOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestPodIOS/Classes/**/*"
+}
