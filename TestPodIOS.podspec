@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestPodIOS'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Testing for pod TestPodIOS.'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'sample description for the pod'
 
   s.homepage         = 'https://github.com/deepakrnan/TestPodIOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
