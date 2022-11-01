@@ -1,13 +1,13 @@
 
 
-class TestPodIOS {
-    func returnValue(_ string:String) -> String{
+open class TestPodIOS {
+    public class func returnValue(_ string:String) -> String{
         return string
     }
 }
 
 extension String{
-    func returnValueString(_ string:String) -> String{
-        return string
+    public func doubleString() -> String{
+        return self + self
     }
 }
